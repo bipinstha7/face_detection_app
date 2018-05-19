@@ -5,7 +5,7 @@ Machine learning api has used to detect face of the given image/people. With the
 
 ## Special Features
 
-* Node server and Postgres sql database
+* Node JS server and Postgres sql database
 * Machine learning api
 * Automatic Face detection 
 * Login and register forms
