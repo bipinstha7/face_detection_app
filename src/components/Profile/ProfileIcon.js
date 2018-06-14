@@ -27,9 +27,9 @@ class ProfileIcon extends React.Component {
           >
             <img src="http://tachyons.io/img/logo.jpg" alt="avatar" className="br-100 ba h3 w3 dib" />
           </DropdownToggle>
-          <DropdownMenu className="b--transparent shadow-5" style={{marginTop: '20px', backgroundColor: 'rgba(255,255,255,0.5'}}>
+          <DropdownMenu right className="b--transparent shadow-5" style={{marginTop: '20px', backgroundColor: 'rgba(255,255,255,0.5'}}>
             <DropdownItem>View Profile</DropdownItem>
-            <DropdownItem>Signout</DropdownItem>
+            <DropdownItem onClick={() => this.props.onRouteChange("signout")}>Sign out</DropdownItem>
           </DropdownMenu>
         </Dropdown>
       </div>
